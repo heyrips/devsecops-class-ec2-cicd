@@ -31,7 +31,7 @@ This project will build the VPC with 9 subnets and create EC2 in public subnet w
 ```
 ## Commands
 ```
-- https://github.com/DevOpsAirflow/devsecops-class-ec2-cicd.git
+- git clone https://github.com/DevOpsAirflow/devsecops-class-ec2-cicd.git
 - cd devsecops-class-ec2-cicd
 - git branch -a
 ```
