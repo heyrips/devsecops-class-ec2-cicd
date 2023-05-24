@@ -8,8 +8,7 @@ set -x
 
 #cd environments/development
 # Terraform init
-terraform init -reconfigure 
-#-input=false -backend-config="backend-config/backend-prod.tfconfig"
+terraform init -reconfigure -input=false -backend-config="backend-config/backend-prod.tfconfig"
 
 terraform fmt --recursive
 terraform validate
