@@ -1,7 +1,7 @@
 ## Provider
 provider "aws" {
   region = var.region
-}
+  }
 
 ## Terraform version
 terraform {
