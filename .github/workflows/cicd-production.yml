@@ -39,7 +39,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          role-to-assume: arn:aws:iam::992097697886:role/devssecops-ec2-cicd-role
+          role-to-assume: arn:aws:iam::992097697886:role/devsecops-class-ec2-cicd
           role-session-name: tf-bastion
           aws-region: ${{ env.AWS_REGION }}
 
