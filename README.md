@@ -26,8 +26,9 @@ This project will build the VPC with 9 subnets and create EC2 in public subnet w
 
 ## Precheck
 ```
-- Make the variables changes to tfvars/*.tfvars files
-- Make the backend config changes in backend-config/*.tfconfig files
+- Make the variables changes to tfvars/*.tfvars files. change vpc, subnet security group. IDs.
+- Make the backend config changes in backend-config/*.tfconfig files. change S3 bucket name and the dynamodb table
+- give the assume role arn in yaml file.
 ```
 ## Commands
 ```
