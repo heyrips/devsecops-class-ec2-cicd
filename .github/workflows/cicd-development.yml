@@ -8,7 +8,7 @@ env:
   AWS_REGION : "us-east-1"
 
 permissions:
-  id-token: write # This is required for requesting the JWT
+  id-token: write # This is required for requesting the JWT.
   contents: write # This is required for actions/checkout
   pull-requests: write
   statuses: write
