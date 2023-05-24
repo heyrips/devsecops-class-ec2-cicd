@@ -1,8 +1,8 @@
 region               = "us-east-1"
 availability_zone_1a = "us-east-1a"
-vpc_id               = "vpc-072aa2bb84c85e4cc"
-public_subnet_1a     = "subnet-08fbe532511951537"
+vpc_id               = "vpc-056a0a78271379431"
+public_subnet_1a     = "subnet-016ceaf71805e5656"
 instance_type        = "t2.large"
 instance_name        = "ubuntu-jenkins-terraform"
-instance_keypair     = "dev-admin-key"
-security_groups_ids  = ["sg-09be76bc20330ab60"]
+instance_keypair     = "dvp-vpc"
+security_groups_ids  = ["sg-0fdd1dd182e12648c"]
